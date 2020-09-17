@@ -346,4 +346,15 @@ margin-bottom: 50px;
         /* font-size: 16px;
         line-height: 30px; */
     }
+
+
+
+
+    #section-cta{
+        background-color: var(--primary-light-color);
+        clip-path: none;
+        height: 100vh;
+    
+    }
+    
 }
