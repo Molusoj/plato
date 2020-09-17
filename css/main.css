@@ -330,6 +330,16 @@ margin-bottom: 50px;
     line-height: 1.8;
 }
 
+#footer .social-icons {
+     display: flex;
+     
+}
+
+#footer .social-icons a{
+    color: var(--primary-color);
+    padding: 0 10px;
+}
+
 @media screen and (max-width: 769px){
     #header{
         height: 100%;
