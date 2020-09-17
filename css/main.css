@@ -33,6 +33,7 @@ html, body{
     color: var(--text-color);
     background-color:var(--bg);
     overflow-x: hidden;
+    /* overflow-y: hidden; */
 
 }
 
@@ -162,19 +163,6 @@ background: #FEEAA6;
     border-bottom-right-radius: 0.25rem;
 }
 
-/* #header .content .student-img{
-    /* position: absolute; */
-    /* width: 736px; */
-    /* height: 550px; */
-    /* left: 95px;
-    top: 0; */
-    /* background: url(../images/Students\ 1.png);
-    /* background-repeat: no-repeat; */ 
-    /* border: 4px solid #FBFBFB; */
-    /* box-sizing: border-box;
-    border-radius: 10px;
-    overflow: hidden; */
-/* } */ 
 
 
 section{
@@ -341,6 +329,15 @@ margin-bottom: 50px;
 }
 
 @media screen and (max-width: 769px){
+    section .section-heading{
+        font-size: 2.4375rem;
+
+    }
+    section .section-text{
+        font-size: 1rem;
+    line-height: 1.8;
+    }
+    
     #header{
         height: 100%;
         padding-bottom: 50px;
