@@ -71,6 +71,9 @@ color: var(--primary-color) !important;
     background-color: var(--primary-light-color);
 }
 
+.w-65{
+    width: 65%;
+}
 
 
 
@@ -114,7 +117,7 @@ line-height: 20px;
 
 #header .content h1{
     color: #fff;
-    font-size: 60px;
+    font-size: 54px;
     /* line-height: 60px; */
     text-align: left;
 }
@@ -157,6 +160,7 @@ background: #FEEAA6;
 }
 
 #header .form-inline .btn-text-purple{
+    width: 35%;
     color: var(--primary-color);
     height: calc(1.5em + 1.75rem + 2px);
     padding: 0.475rem 0.75rem;
